@@ -152,7 +152,7 @@ const BeginnerWomenPage = () => {
               <div>
                 <div 
                   className="h-96 bg-cover bg-center rounded-lg shadow-lg"
-                  style={{ backgroundImage: 'url("/api/placeholder/500/600")' }}
+                  style={{ backgroundImage: 'url("/images/beginner-women/main-image.jpg")' }}
                   aria-label="Women hunting together in nature"
                 />
               </div>

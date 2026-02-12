@@ -68,10 +68,10 @@ const ExperiencedHuntersPage = () => {
               <div className="card">
                 <div 
                   className="h-48 bg-cover bg-center rounded-lg mb-6"
-                  style={{ backgroundImage: 'url("/api/placeholder/600/300")' }}
+                  style={{ backgroundImage: 'url("/images/experienced-hunters/hawaii.jpg")' }}
                 />
-                <h3 className="text-2xl font-serif font-bold text-white mb-3">Alaska Wilderness Hunt</h3>
-                <p className="text-gray-200 mb-4">
+                <h3 className="text-2xl font-serif font-bold text-gray-900 mb-3">Alaska Wilderness Hunt</h3>
+                <p className="text-gray-600 mb-4">
                   Join us in the Last Frontier for a 10-day caribou and moose hunt combined with Inuit ceremony 
                   and connection to the land that time forgot.
                 </p>
@@ -85,10 +85,10 @@ const ExperiencedHuntersPage = () => {
               <div className="card">
                 <div 
                   className="h-48 bg-cover bg-center rounded-lg mb-6"
-                  style={{ backgroundImage: 'url("/api/placeholder/600/300")' }}
+                  style={{ backgroundImage: 'url("/images/experienced-hunters/tribe.jpg")' }}
                 />
-                <h3 className="text-2xl font-serif font-bold text-white mb-3">African Safari Experience</h3>
-                <p className="text-gray-200 mb-4">
+                <h3 className="text-2xl font-serif font-bold text-gray-900 mb-3">African Safari Experience</h3>
+                <p className="text-gray-600 mb-4">
                   Hunt plains game in South Africa while learning from indigenous trackers and participating 
                   in traditional ceremonies honoring the animals we take.
                 </p>

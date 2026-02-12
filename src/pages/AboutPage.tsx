@@ -5,7 +5,7 @@ const AboutPage = () => {
       <section 
         className="relative py-32 flex items-center justify-center text-center hero-section"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/api/placeholder/1920/600")',
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/images/about/image-3.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -38,25 +38,25 @@ const AboutPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              {/* Image Placeholder */}
+              {/* Image */}
               <div className="order-2 lg:order-1">
-                <div 
-                  className="h-96 bg-cover bg-center rounded-lg shadow-lg"
-                  style={{ backgroundImage: 'url("/api/placeholder/500/600")' }}
-                  aria-label="Mansal Denton, founder of Sacred Hunting"
+                <img 
+                  src="/images/about/image-4.png"
+                  alt="Mansal Denton, founder of Sacred Hunting"
+                  className="w-full h-auto rounded-lg shadow-lg object-cover"
                 />
               </div>
 
               {/* Content */}
               <div className="order-1 lg:order-2">
-                <h2 className="text-4xl font-serif font-bold text-white mb-6">
+                <h2 className="text-4xl font-serif font-bold text-gray-900 mb-6">
                   Meet Mansal Denton
                 </h2>
                 <h3 className="text-xl text-earth-cta mb-6 font-semibold">
                   Founder of Sacred Hunting
                 </h3>
                 
-                <div className="space-y-6 text-lg text-gray-200 leading-relaxed">
+                <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                   <p>
                     Mansal Denton is the founder of Sacred Hunting. Feeling wounded and insecure in early life, 
                     Mansal chased a woman to Europe, which led him to prison. Struggling with shame and confusion 

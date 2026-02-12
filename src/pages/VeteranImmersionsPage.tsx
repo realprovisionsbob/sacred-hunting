@@ -109,16 +109,16 @@ const VeteranImmersionsPage = () => {
               <div>
                 <div 
                   className="h-96 bg-cover bg-center rounded-lg shadow-lg"
-                  style={{ backgroundImage: 'url("/api/placeholder/500/600")' }}
+                  style={{ backgroundImage: 'url("/images/veterans/mike-bledsoe.jpg")' }}
                   aria-label="Mike Bledsoe, Veteran Leader"
                 />
               </div>
               
               <div>
-                <h3 className="text-3xl font-serif font-bold text-white mb-4">Mike Bledsoe</h3>
+                <h3 className="text-3xl font-serif font-bold text-gray-900 mb-4">Mike Bledsoe</h3>
                 <h4 className="text-xl text-earth-cta mb-6">Navy Veteran & Sacred Hunting Leader</h4>
                 
-                <div className="space-y-4 text-lg text-gray-200 leading-relaxed">
+                <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                   <p>
                     Mike Bledsoe is a coach, podcaster, and perpetual seeker of truth. He is a Navy veteran 
                     deployed to the Middle East and Africa. He is a space holder and thought leader in the 

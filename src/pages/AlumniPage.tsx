@@ -5,7 +5,7 @@ const AlumniPage = () => {
       <section 
         className="relative py-32 flex items-center justify-center text-center hero-section"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/api/placeholder/1920/600")',
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/images/alumni/hero-bg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
