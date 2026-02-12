@@ -57,7 +57,7 @@ const HomePage = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section 
-        className="relative h-screen flex items-center justify-center text-center hero-section"
+        className="relative h-screen flex items-center justify-center text-center"
         style={{
           backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("/images/home/hero-bg.jpg")',
           backgroundSize: 'cover',
@@ -85,37 +85,37 @@ const HomePage = () => {
       </section>
 
       {/* Featured Video Section */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
               Experience Sacred Hunting
             </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Discover what awaits you on this transformational journey.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
-            <WistiaEmbed videoId="62li3tvrc3" playerColor="#8B4513" />
+            <WistiaEmbed videoId="62li3tvrc3" playerColor="#e74c3c" />
           </div>
         </div>
       </section>
 
       {/* Quote Section */}
-      <section className="py-16 bg-earth-charcoal">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <blockquote className="text-2xl md:text-3xl font-serif italic text-earth-tan max-w-4xl mx-auto">
+          <blockquote className="text-2xl md:text-3xl font-serif italic text-gray-800 max-w-4xl mx-auto">
             "Man's first religion was to kill god and eat him."
-            <footer className="text-lg text-gray-400 mt-4 not-italic">— Weston LeBarre</footer>
+            <footer className="text-lg text-gray-500 mt-4 not-italic">— Weston LeBarre</footer>
           </blockquote>
         </div>
       </section>
 
       {/* Mission Statement */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
               <p>
                 Hunting is humanity's original spiritual practice. Our ancestors hunted together as a brotherhood, 
                 shared their stories, and revered having a direct relationship to the food they ate.
@@ -145,13 +145,13 @@ const HomePage = () => {
       </section>
 
       {/* What is Sacred Hunting */}
-      <section className="py-20 bg-earth-charcoal">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
               What is Sacred Hunting?
             </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Sacred Hunting is an organization that facilitates transformation, self-growth, and eco-spiritual 
               connection to nature. Here's how:
             </p>
@@ -159,12 +159,12 @@ const HomePage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {practiceCards.map((card, index) => (
-              <div key={index} className="card text-center">
+              <div key={index} className="text-center p-6">
                 <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <img src={card.icon} alt={card.title} className="w-full h-full object-contain" />
                 </div>
-                <h3 className="text-xl font-serif font-bold text-white mb-4">{card.title}</h3>
-                <p className="text-gray-300 leading-relaxed">{card.description}</p>
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-4">{card.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{card.description}</p>
               </div>
             ))}
           </div>
@@ -172,45 +172,45 @@ const HomePage = () => {
       </section>
 
       {/* Who Will You Become */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
               Who Will You Become?
             </h2>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-12">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
               This is for you if...
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="card">
-              <h3 className="text-xl font-bold text-earth-tan mb-4">I'm struggling with...</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li>"Feeling fulfilled even though I'm professionally successful."</li>
-                <li>"Confidence that I can survive in nature and provide food on my own."</li>
-                <li>"Relating at an intimate level with my girlfriend / wife."</li>
-                <li>"Feeling deep friendship and community of brotherhood."</li>
+              <h3 className="text-xl font-bold text-earth-cta mb-4">I'm struggling with...</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="italic">"Feeling fulfilled even though I'm professionally successful."</li>
+                <li className="italic">"Confidence that I can survive in nature and provide food on my own."</li>
+                <li className="italic">"Relating at an intimate level with my girlfriend / wife."</li>
+                <li className="italic">"Feeling deep friendship and community of brotherhood."</li>
               </ul>
             </div>
 
             <div className="card">
-              <h3 className="text-xl font-bold text-earth-tan mb-4">If I could just...</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li>"Learn how to hunt, I'd feel more secure."</li>
-                <li>"Take responsibility for the meat I eat, I'd feel proud."</li>
-                <li>"Find a connection to something bigger than myself, I'd feel a sense of purpose."</li>
-                <li>"Relate with a group of brothers, I'd realize I'm not alone."</li>
+              <h3 className="text-xl font-bold text-earth-cta mb-4">If I could just...</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="italic">"Learn how to hunt, I'd feel more secure."</li>
+                <li className="italic">"Take responsibility for the meat I eat, I'd feel proud."</li>
+                <li className="italic">"Find a connection to something bigger than myself, I'd feel a sense of purpose."</li>
+                <li className="italic">"Relate with a group of brothers, I'd realize I'm not alone."</li>
               </ul>
             </div>
 
             <div className="card">
-              <h3 className="text-xl font-bold text-earth-tan mb-4">Because I want to...</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li>"Experience the rite of passage of taking life to sustain life."</li>
-                <li>"Eat meat I'm proud to share with my family and friends."</li>
-                <li>"Find and share my greatest gifts for the betterment of all."</li>
-                <li>"Feel confident in my hunting abilities."</li>
+              <h3 className="text-xl font-bold text-earth-cta mb-4">Because I want to...</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="italic">"Experience the rite of passage of taking life to sustain life."</li>
+                <li className="italic">"Eat meat I'm proud to share with my family and friends."</li>
+                <li className="italic">"Find and share my greatest gifts for the betterment of all."</li>
+                <li className="italic">"Feel confident in my hunting abilities."</li>
               </ul>
             </div>
           </div>
@@ -218,29 +218,29 @@ const HomePage = () => {
       </section>
 
       {/* Retreat Categories */}
-      <section className="py-20 bg-earth-charcoal">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
               Choose Your Journey
             </h2>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Find the perfect Sacred Hunting experience for your level and calling.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {retreatCategories.map((category, index) => (
-              <div key={index} className="card group hover:scale-105 transition-transform duration-200">
+              <div key={index} className="card group hover:shadow-xl transition-shadow duration-200">
                 <div 
                   className="h-48 bg-cover bg-center rounded-lg mb-6"
                   style={{ backgroundImage: `url(${category.image})` }}
                 />
-                <h3 className="text-xl font-serif font-bold text-white mb-3">{category.title}</h3>
-                <p className="text-gray-300 mb-6 leading-relaxed">{category.description}</p>
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-3">{category.title}</h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">{category.description}</p>
                 <Link 
                   to={category.path}
-                  className="btn-primary w-full text-center block group-hover:bg-earth-brown/80"
+                  className="btn-primary w-full text-center block"
                 >
                   Learn More
                 </Link>
@@ -251,12 +251,20 @@ const HomePage = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 bg-earth-dark">
+      <section 
+        className="py-20 relative"
+        style={{
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/images/home/hero-bg.jpg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
             Already know you want to join us?
           </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Submit your application today, we can't wait to meet you.
           </p>
           <button className="btn-primary text-lg">

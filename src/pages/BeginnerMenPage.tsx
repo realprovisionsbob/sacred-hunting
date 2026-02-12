@@ -26,14 +26,14 @@ const BeginnerMenPage = () => {
       </section>
 
       {/* Overview */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-serif font-bold text-white mb-8 text-center">
+            <h2 className="text-4xl font-serif font-bold text-gray-900 mb-8 text-center">
               Your First Sacred Hunt
             </h2>
             
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+            <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
                 This retreat is specifically designed for men who have never hunted before or are new to the practice. 
                 We understand that taking the life of an animal can be a profound and potentially overwhelming experience, 
@@ -52,58 +52,58 @@ const BeginnerMenPage = () => {
       </section>
 
       {/* What's Included */}
-      <section className="py-20 bg-earth-charcoal">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-serif font-bold text-white mb-12 text-center">
+            <h2 className="text-4xl font-serif font-bold text-gray-900 mb-12 text-center">
               What's Included
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="card">
                 <div className="text-3xl mb-4">🏹</div>
-                <h3 className="text-xl font-bold text-white mb-3">Hunting Instruction</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Hunting Instruction</h3>
+                <p className="text-gray-600">
                   Learn rifle safety, tracking, field dressing, and ethical hunting practices from experienced guides.
                 </p>
               </div>
 
               <div className="card">
                 <div className="text-3xl mb-4">🔥</div>
-                <h3 className="text-xl font-bold text-white mb-3">Sweat Lodge Ceremony</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Sweat Lodge Ceremony</h3>
+                <p className="text-gray-600">
                   Participate in traditional Lakota "inipi" ceremonies to purify mind, body, and spirit before the hunt.
                 </p>
               </div>
 
               <div className="card">
                 <div className="text-3xl mb-4">🌿</div>
-                <h3 className="text-xl font-bold text-white mb-3">Power Plant Ceremony</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Power Plant Ceremony</h3>
+                <p className="text-gray-600">
                   Sacred ceremonies with traditional plants like cacao to expand consciousness and connection.
                 </p>
               </div>
 
               <div className="card">
                 <div className="text-3xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold text-white mb-3">Men's Council</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Men's Council</h3>
+                <p className="text-gray-600">
                   Share stories, fears, and insights with fellow hunters in a safe, judgment-free environment.
                 </p>
               </div>
 
               <div className="card">
                 <div className="text-3xl mb-4">🍖</div>
-                <h3 className="text-xl font-bold text-white mb-3">Field to Table</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Field to Table</h3>
+                <p className="text-gray-600">
                   Learn to process, prepare, and share the meat you harvest in a sacred feast with your brothers.
                 </p>
               </div>
 
               <div className="card">
                 <div className="text-3xl mb-4">📱</div>
-                <h3 className="text-xl font-bold text-white mb-3">Digital Detox</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Digital Detox</h3>
+                <p className="text-gray-600">
                   No phones or laptops - reconnect with nature and your authentic self without modern distractions.
                 </p>
               </div>
@@ -113,17 +113,17 @@ const BeginnerMenPage = () => {
       </section>
 
       {/* Equipment & Preparation */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-serif font-bold text-white mb-8 text-center">
+            <h2 className="text-4xl font-serif font-bold text-gray-900 mb-8 text-center">
               Preparation & Equipment
             </h2>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div className="card">
-                <h3 className="text-2xl font-bold text-earth-tan mb-4">Rifle Preparation</h3>
-                <div className="space-y-4 text-gray-300">
+                <h3 className="text-2xl font-bold text-earth-cta mb-4">Rifle Preparation</h3>
+                <div className="space-y-4 text-gray-600">
                   <p>
                     <strong>Important:</strong> While it is certainly possible to arrive for Sacred Hunting and learn how to 
                     fire a rifle, we strongly recommend against it.
@@ -147,8 +147,8 @@ const BeginnerMenPage = () => {
               </div>
 
               <div className="card">
-                <h3 className="text-2xl font-bold text-earth-tan mb-4">What to Bring</h3>
-                <ul className="space-y-2 text-gray-300">
+                <h3 className="text-2xl font-bold text-earth-cta mb-4">What to Bring</h3>
+                <ul className="space-y-2 text-gray-600">
                   <li>• Weather-appropriate outdoor clothing</li>
                   <li>• Sturdy hiking boots</li>
                   <li>• Warm sleeping gear</li>
@@ -158,8 +158,8 @@ const BeginnerMenPage = () => {
                   <li>• Open mind and heart</li>
                 </ul>
                 
-                <h4 className="text-lg font-bold text-white mt-6 mb-3">Not Allowed</h4>
-                <ul className="space-y-2 text-gray-300">
+                <h4 className="text-lg font-bold text-gray-900 mt-6 mb-3">Not Allowed</h4>
+                <ul className="space-y-2 text-gray-600">
                   <li>• Cell phones or smart devices</li>
                   <li>• Laptops or tablets</li>
                   <li>• Alcohol or recreational substances</li>
@@ -172,28 +172,28 @@ const BeginnerMenPage = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 bg-earth-charcoal">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-serif font-bold text-white mb-12 text-center">
+            <h2 className="text-4xl font-serif font-bold text-gray-900 mb-12 text-center">
               What Men Are Saying
             </h2>
             
             <div className="space-y-8">
               <blockquote className="card text-center">
-                <p className="text-lg text-gray-300 italic mb-4">
+                <p className="text-lg text-gray-600 italic mb-4">
                   "This experience fundamentally changed how I see myself as a man. The combination of hunting, ceremony, 
                   and brotherhood gave me tools I never knew I needed. I finally understand what it means to provide."
                 </p>
-                <footer className="text-earth-tan font-semibold">— James M., First-time Hunter</footer>
+                <footer className="text-earth-cta font-semibold">— James M., First-time Hunter</footer>
               </blockquote>
 
               <blockquote className="card text-center">
-                <p className="text-lg text-gray-300 italic mb-4">
+                <p className="text-lg text-gray-600 italic mb-4">
                   "I came feeling lost and disconnected from my masculinity. I left with a clear sense of purpose 
                   and a group of brothers I'll have for life. The meat we shared was the most meaningful meal I've ever eaten."
                 </p>
-                <footer className="text-earth-tan font-semibold">— Michael T., Software Developer</footer>
+                <footer className="text-earth-cta font-semibold">— Michael T., Software Developer</footer>
               </blockquote>
             </div>
           </div>
@@ -201,23 +201,23 @@ const BeginnerMenPage = () => {
       </section>
 
       {/* Video Testimonials */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
               Hear From Past Participants
             </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Listen to the transformational stories from men who've walked this path.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <div className="card">
-              <h3 className="text-xl font-bold text-white mb-4">Michael's Journey</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Michael's Journey</h3>
               <WistiaEmbed videoId="wy42zzlszf" playerColor="#8B4513" />
             </div>
             <div className="card">
-              <h3 className="text-xl font-bold text-white mb-4">First Hunt Experience</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">First Hunt Experience</h3>
               <WistiaEmbed videoId="hdbozoytl1" playerColor="#8B4513" />
             </div>
           </div>
@@ -225,12 +225,12 @@ const BeginnerMenPage = () => {
       </section>
 
       {/* Next Steps */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
             Ready to Take the Next Step?
           </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Join us for an experience that will reconnect you with your deepest purpose as a man. 
             Limited spots available.
           </p>
@@ -243,8 +243,8 @@ const BeginnerMenPage = () => {
             </button>
           </div>
           
-          <div className="mt-8 text-sm text-gray-400">
-            <p>Questions? Email us at <a href="mailto:info@sacredhunting.com" className="text-earth-tan hover:underline">info@sacredhunting.com</a></p>
+          <div className="mt-8 text-sm text-gray-500">
+            <p>Questions? Email us at <a href="mailto:info@sacredhunting.com" className="text-earth-cta hover:underline">info@sacredhunting.com</a></p>
           </div>
         </div>
       </section>

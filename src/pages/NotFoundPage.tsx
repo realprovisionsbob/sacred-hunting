@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const NotFoundPage = () => {
   return (
-    <div className="min-h-screen bg-earth-dark flex items-center justify-center">
+    <div className="min-h-screen bg-earth-section flex items-center justify-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-2xl mx-auto">
           {/* Large 404 */}
@@ -11,18 +11,18 @@ const NotFoundPage = () => {
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
             Lost in the Wilderness
           </h1>
 
           {/* Description */}
-          <p className="text-xl text-gray-300 mb-8 max-w-lg mx-auto">
+          <p className="text-xl text-gray-600 mb-8 max-w-lg mx-auto">
             Even the most experienced hunters sometimes lose the trail. 
             The page you're looking for seems to have wandered off.
           </p>
 
           {/* Quote */}
-          <blockquote className="text-lg italic text-earth-tan mb-8 border-l-4 border-earth-tan pl-6 max-w-md mx-auto">
+          <blockquote className="text-lg italic text-earth-cta mb-8 border-l-4 border-earth-tan pl-6 max-w-md mx-auto">
             "Not all who wander are lost... but this page definitely is."
           </blockquote>
 
@@ -38,29 +38,29 @@ const NotFoundPage = () => {
 
           {/* Helpful Links */}
           <div className="card max-w-md mx-auto">
-            <h3 className="text-lg font-bold text-white mb-4">Popular Trails</h3>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">Popular Trails</h3>
             <div className="grid grid-cols-1 gap-2 text-left">
               <Link 
                 to="/beginner-men" 
-                className="text-gray-300 hover:text-earth-tan transition-colors"
+                className="text-gray-600 hover:text-earth-cta transition-colors"
               >
                 → Beginner Men's Retreat
               </Link>
               <Link 
                 to="/beginner-women" 
-                className="text-gray-300 hover:text-earth-tan transition-colors"
+                className="text-gray-600 hover:text-earth-cta transition-colors"
               >
                 → Beginner Women's Retreat
               </Link>
               <Link 
                 to="/veteran-immersions" 
-                className="text-gray-300 hover:text-earth-tan transition-colors"
+                className="text-gray-600 hover:text-earth-cta transition-colors"
               >
                 → Veteran Immersions
               </Link>
               <Link 
                 to="/alumni" 
-                className="text-gray-300 hover:text-earth-tan transition-colors"
+                className="text-gray-600 hover:text-earth-cta transition-colors"
               >
                 → Alumni Community
               </Link>

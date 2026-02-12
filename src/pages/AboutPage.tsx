@@ -24,17 +24,17 @@ const AboutPage = () => {
       </section>
 
       {/* Quote Section */}
-      <section className="py-16 bg-earth-charcoal">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <blockquote className="text-3xl md:text-4xl font-serif italic text-earth-tan max-w-4xl mx-auto">
+          <blockquote className="text-3xl md:text-4xl font-serif italic text-earth-cta max-w-4xl mx-auto">
             "Every wound is a womb."
-            <footer className="text-lg text-gray-400 mt-4 not-italic">— Robert Bly</footer>
+            <footer className="text-lg text-gray-500 mt-4 not-italic">— Robert Bly</footer>
           </blockquote>
         </div>
       </section>
 
       {/* Mansal's Story */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -52,11 +52,11 @@ const AboutPage = () => {
                 <h2 className="text-4xl font-serif font-bold text-white mb-6">
                   Meet Mansal Denton
                 </h2>
-                <h3 className="text-xl text-earth-tan mb-6 font-semibold">
+                <h3 className="text-xl text-earth-cta mb-6 font-semibold">
                   Founder of Sacred Hunting
                 </h3>
                 
-                <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+                <div className="space-y-6 text-lg text-gray-200 leading-relaxed">
                   <p>
                     Mansal Denton is the founder of Sacred Hunting. Feeling wounded and insecure in early life, 
                     Mansal chased a woman to Europe, which led him to prison. Struggling with shame and confusion 
@@ -82,13 +82,13 @@ const AboutPage = () => {
       </section>
 
       {/* Our Mission */}
-      <section className="py-20 bg-earth-charcoal">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-8">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-8">
               Our Mission
             </h2>
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+            <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
                 Sacred Hunting was born from a deep understanding that modern men and women have lost touch 
                 with one of humanity's most fundamental practices. Hunting isn't just about procuring food—it's 
@@ -107,18 +107,18 @@ const AboutPage = () => {
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-earth-dark">
+      <section className="py-20 bg-earth-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-12 text-center">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-12 text-center">
               Our Values
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="card text-center">
                 <div className="text-4xl mb-4">🌿</div>
-                <h3 className="text-xl font-serif font-bold text-white mb-4">Sacred Connection</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-4">Sacred Connection</h3>
+                <p className="text-gray-600">
                   We honor the sacred relationship between hunter and hunted, understanding that 
                   taking life to sustain life is one of nature's most profound teachings.
                 </p>
@@ -126,8 +126,8 @@ const AboutPage = () => {
 
               <div className="card text-center">
                 <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-serif font-bold text-white mb-4">Community & Brotherhood</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-4">Community & Brotherhood</h3>
+                <p className="text-gray-600">
                   We believe in the power of authentic connection and support among like-minded 
                   individuals on the path of personal growth and spiritual development.
                 </p>
@@ -135,8 +135,8 @@ const AboutPage = () => {
 
               <div className="card text-center">
                 <div className="text-4xl mb-4">🏹</div>
-                <h3 className="text-xl font-serif font-bold text-white mb-4">Ancient Wisdom</h3>
-                <p className="text-gray-300">
+                <h3 className="text-xl font-serif font-bold text-gray-900 mb-4">Ancient Wisdom</h3>
+                <p className="text-gray-600">
                   We integrate time-tested indigenous practices, ceremonies, and teachings that 
                   have guided humans for thousands of years.
                 </p>
@@ -147,12 +147,12 @@ const AboutPage = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-earth-charcoal">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
             Ready to Begin Your Journey?
           </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Whether you're a complete beginner or an experienced hunter looking to deepen your practice, 
             we have a path for you.
           </p>

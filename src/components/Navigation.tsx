@@ -6,8 +6,8 @@ const Navigation = () => {
   const location = useLocation()
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/about-us', label: 'About' },
+    { path: '/about-us', label: 'About Us' },
+    { path: '/beginner-men', label: 'Our Programs', isDropdown: true },
     { path: '/beginner-men', label: 'Beginner Men' },
     { path: '/beginner-women', label: 'Beginner Women' },
     { path: '/experienced-hunters', label: 'Experienced' },
@@ -16,29 +16,39 @@ const Navigation = () => {
   ]
 
   return (
-    <nav className="sticky top-0 z-50 bg-earth-charcoal/95 backdrop-blur-sm border-b border-earth-stone/20">
+    <nav className="sticky top-0 z-50 bg-earth-charcoal border-b border-gray-700">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-serif font-bold text-earth-tan hover:text-white transition-colors">
-            Sacred Hunting
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/images/logo.jpg" 
+              alt="Sacred Hunting" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <Link
-                key={item.path}
+                key={item.path + item.label}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-earth-tan ${
+                className={`text-sm font-medium transition-colors hover:text-white ${
                   location.pathname === item.path 
-                    ? 'text-earth-tan' 
+                    ? 'text-white' 
                     : 'text-gray-300'
                 }`}
               >
                 {item.label}
               </Link>
             ))}
+            <Link
+              to="/beginner-men"
+              className="ml-2 px-5 py-2 bg-earth-cta hover:bg-earth-cta-hover text-white text-sm font-semibold rounded transition-colors"
+            >
+              Apply Now
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -54,22 +64,29 @@ const Navigation = () => {
 
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-earth-charcoal border-t border-earth-stone/20">
-            <div className="py-4 space-y-4">
+          <div className="md:hidden bg-earth-charcoal border-t border-gray-700">
+            <div className="py-4 space-y-1">
               {navItems.map((item) => (
                 <Link
-                  key={item.path}
+                  key={item.path + item.label}
                   to={item.path}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`block px-4 py-2 text-base font-medium transition-colors hover:text-earth-tan ${
+                  className={`block px-4 py-2 text-base font-medium transition-colors hover:text-white hover:bg-earth-dark/50 ${
                     location.pathname === item.path 
-                      ? 'text-earth-tan bg-earth-stone/10' 
+                      ? 'text-white bg-earth-dark/30' 
                       : 'text-gray-300'
                   }`}
                 >
                   {item.label}
                 </Link>
               ))}
+              <Link
+                to="/beginner-men"
+                onClick={() => setIsMenuOpen(false)}
+                className="block mx-4 mt-3 px-5 py-2 bg-earth-cta hover:bg-earth-cta-hover text-white text-center font-semibold rounded transition-colors"
+              >
+                Apply Now
+              </Link>
             </div>
           </div>
         )}

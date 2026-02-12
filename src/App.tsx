@@ -13,7 +13,7 @@ import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   return (
-    <div className="min-h-screen bg-earth-dark">
+    <div className="min-h-screen bg-earth-light">
       <ScrollToTop />
       <Navigation />
       <main>

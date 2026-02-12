@@ -14,6 +14,10 @@ export default {
           green: '#2F4F2F',
           tan: '#D2B48C',
           stone: '#696969',
+          light: '#eeeeee',
+          section: '#ecf0f1',
+          cta: '#e74c3c',
+          'cta-hover': '#c0392b',
         }
       },
       fontFamily: {

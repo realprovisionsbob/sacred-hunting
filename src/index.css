@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-sans text-gray-100 bg-earth-dark;
+    @apply font-sans text-gray-800 bg-earth-light;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -18,15 +18,27 @@
   }
   
   .btn-primary {
-    @apply bg-earth-brown hover:bg-earth-brown/90 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200;
+    @apply bg-earth-cta hover:bg-earth-cta-hover text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 border-2 border-earth-cta hover:border-earth-cta-hover;
   }
   
   .btn-secondary {
-    @apply border border-earth-tan text-earth-tan hover:bg-earth-tan hover:text-earth-dark px-8 py-3 rounded-lg font-semibold transition-colors duration-200;
+    @apply border-2 border-white text-white hover:bg-white hover:text-earth-dark px-8 py-3 rounded-lg font-semibold transition-colors duration-200;
   }
   
   .card {
-    @apply bg-earth-charcoal rounded-lg p-6 shadow-lg;
+    @apply bg-white rounded-lg p-6 shadow-md;
+  }
+
+  .section-light {
+    @apply bg-earth-section;
+  }
+
+  .section-white {
+    @apply bg-white;
+  }
+
+  .section-dark {
+    @apply bg-earth-charcoal text-white;
   }
 }
 
@@ -36,14 +48,14 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #2d2d2d;
+  background: #eeeeee;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #8B4513;
+  background: #999;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #A0522D;
+  background: #777;
 }
