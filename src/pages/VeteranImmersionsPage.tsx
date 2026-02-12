@@ -1,3 +1,5 @@
+import WistiaEmbed from '../components/WistiaEmbed'
+
 const VeteranImmersionsPage = () => {
   return (
     <div className="min-h-screen">
@@ -5,7 +7,7 @@ const VeteranImmersionsPage = () => {
       <section 
         className="relative py-32 flex items-center justify-center text-center hero-section"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/api/placeholder/1920/600")',
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/images/veterans/hero-bg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -243,6 +245,26 @@ const VeteranImmersionsPage = () => {
                   — Gili Oren, Israeli Defense Force (IDF) & Palestinian War veteran
                 </footer>
               </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Testimonial */}
+      <section className="py-20 bg-earth-charcoal">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+              Veteran's Healing Journey
+            </h2>
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+              Watch a veteran share his transformational experience.
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="card">
+              <h3 className="text-xl font-bold text-white mb-4 text-center">From Service to Sacred Hunt</h3>
+              <WistiaEmbed videoId="hbi8kh80ux" playerColor="#8B4513" />
             </div>
           </div>
         </div>

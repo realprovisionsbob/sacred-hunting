@@ -1,0 +1,106 @@
+# Homepage images (from provided list)
+home/hero-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1590712/settings_images/i8ZQsyYhT6mYLUrFWzy7_paul-earle-l98YXp1X8dA-unsplash.jpg
+home/video-thumbnail.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/b7e750f-6262-3246-17aa-fca24d442445_864f2ad4-a875-4a0c-b003-6a0ca065fa47.jpg
+home/mushroom-icon.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1590712/settings_images/khjGYHPTEevLYMkClXlw_vector_mushrooms.jpg
+home/screenshot.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/077bbf7-f4c-e0d-78e5-8c56c41c4bdd_Screenshot_2024-09-17_143946.png
+home/bow-arrow-icon.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1590712/settings_images/HnYYFHR3RS6hxZSWCNTW_bow-and-arrow.png
+home/retreat-1.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/1f1a74d-8bd4-0326-ab7e-a4be446bc7_50f5e74d-ce9b-464b-99b2-58367475480d.jpg
+home/retreat-2.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/736bf36-8df3-efe-3d6a-d85dcdaa67cf_Sacred_Hunting_Beginner_Immersion.jpg
+home/retreat-3.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/570b03-1e3f-f60-c3ae-2bd0852220ee_220c4fc2-2841-43dd-82f1-a35073e8c931.jpg
+home/retreat-4.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/15bef0-2c3f-ad07-6db7-5baeb0121ed_ea191ccb-ff27-48a1-8d92-c88484e61c5c.jpg
+home/retreat-5.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/4efc183-13f2-fb1-00b-4d5c2d8fdb_0ed6f494-6cf9-4f6d-82e4-95d18cbb7e05.jpg
+home/retreat-6.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/17f7e1b-e3c8-6bcd-7560-4f85328a1ef_dc18c07c-f12b-42b0-9987-f2ac3bfb06c9.jpg
+home/texture-bg-1.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/a85201-5a80-7838-a0c4-4f412eaee38_38ab5392-8b99-4deb-bf44-475ff8894554.png
+home/texture-bg-2.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/1590712/settings_images/f702f8-0f78-5ddd-6838-c2a245203d1_7a85b6b6-395e-4d0e-947c-34fa1137faa9.png
+
+# Beginner Men images (from provided list)
+beginner-men/hero-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1679076/settings_images/YO18sc9QyWBGsAkDBN8A_file.jpg
+beginner-men/content-1.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/21b-3640-7820-ae26-55342524e84_781d01f5-311a-4f56-9774-d552d2474087.jpg
+beginner-men/content-2.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/5a36bd-fd84-fca2-1abf-db51dc5407d7_Beginner-_Sacred_Hunting.jpg
+beginner-men/content-3.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/e8d5ea3-d83c-18b6-c18-a861e5aa3d61_jwtbyNklSViXCHylVmMw_file_1_.jpg
+beginner-men/content-4.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/57d3ab8-2056-1e20-1202-ee55517b8fc_HrSGdgNURYG9P8jmoAqR_file.jpg
+beginner-men/content-5.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/0eedf76-3202-86f8-4b23-5db8a00585c_PK8e7LlvQT6WUrjY4mcT_file.jpg
+beginner-men/content-6.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/c31ce8-7380-5d-8006-7cf70e844e2_3kTnkW9QmiHv81uZZRmQ_file.jpg
+beginner-men/content-7.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/bcf7547-d68e-7538-e0-1400ef247cd_UwKQH26wR4Ou1TFNhsCT_file.jpg
+beginner-men/content-8.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/7a86563-8a6a-7602-60c8-7a821f3b8b74_TcTFcugyRqacEac91Hhx_file.jpg
+beginner-men/content-9.jpeg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/aae7185-81ac-0c0c-0e26-8cc3baba253_3ef70ca6-ccb9-47b7-aa0c-ee1f3947cc60.jpeg
+beginner-men/content-10.jpeg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/5a5e55b-305b-efe3-000a-4ab3dfa2e86b_7c8562a6-89b9-4672-9f4f-e6018c3eb59d.jpeg
+beginner-men/content-11.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/38ded6a-826c-0b72-bf3f-f05a6ad62b_Mike_Salemi_Sacred_Hunting.jpg
+beginner-men/texture-bg.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/4bac3cf-1e45-f7ec-d2aa-7434cbc3346c_aad45114-655b-47c2-abe2-fc9e113ea00a.png
+
+# Women Beginner images
+beginner-women/meta-image.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/94225/images/e6fe115-fb48-deaf-d05-81d74ce36a1_02ef69d8-93b6-46f0-8dd8-eabd0a0a98e6.JPG
+beginner-women/favicon.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/3f3bef4-a1fa-def6-34f2-28f5b6feb5e_e3f4debf-432b-40ff-a0a3-e5b619b657e7.jpg
+beginner-women/logo.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/21b-3640-7820-ae26-55342524e84_781d01f5-311a-4f56-9774-d552d2474087.jpg
+beginner-women/mushroom-icon.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/3bff22-5785-527a-aebf-a165462e316_khjGYHPTEevLYMkClXlw_vector_mushrooms.jpg
+beginner-women/person-1.jpeg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/aae7185-81ac-0c0c-0e26-8cc3baba253_3ef70ca6-ccb9-47b7-aa0c-ee1f3947cc60.jpeg
+beginner-women/bow-arrow.webp https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/b8efa8-78e3-5412-2db1-78fbe24425_HnYYFHR3RS6hxZSWCNTW_bow-and-arrow.webp
+beginner-women/content-1.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/0eedf76-3202-86f8-4b23-5db8a00585c_PK8e7LlvQT6WUrjY4mcT_file.jpg
+beginner-women/content-2.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/57d3ab8-2056-1e20-1202-ee55517b8fc_HrSGdgNURYG9P8jmoAqR_file.jpg
+beginner-women/content-3.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/e8d5ea3-d83c-18b6-c18-a861e5aa3d61_jwtbyNklSViXCHylVmMw_file_1_.jpg
+beginner-women/video-thumbnail.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158250105/settings_images/0fb620-657c-54-517-64f6edda4eb3_Women_Sacred_Hunting.png
+beginner-women/main-image.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158250105/settings_images/1f5b031-8b47-3680-cfd8-fdad1871b5_Sacred_Hunting_Women.JPG
+beginner-women/testimonial-1.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158250105/settings_images/8ade715-552f-00d-1fe7-2737a2db68d_Leola_Lauren_Sacred_Hunting.jpg
+beginner-women/testimonial-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158250105/settings_images/e5eb368-d4b4-f60a-782b-7f0643a3850b_e4528c18-7ead-4543-a213-4c8cb5254cd5.JPG
+beginner-women/hero-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1679076/settings_images/YO18sc9QyWBGsAkDBN8A_file.jpg
+
+# Experienced Hunters images
+experienced-hunters/meta-image.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/94225/images/5a3bd0-b5a6-72e3-e44-a15872c07dc1_43e4cc20-7cfc-447c-812f-904544af8427.png
+experienced-hunters/logo.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/21b-3640-7820-ae26-55342524e84_781d01f5-311a-4f56-9774-d552d2474087.jpg
+experienced-hunters/favicon.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/3f3bef4-a1fa-def6-34f2-28f5b6feb5e_e3f4debf-432b-40ff-a0a3-e5b619b657e7.jpg
+experienced-hunters/texture-bg.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/4bac3cf-1e45-f7ec-d2aa-7434cbc3346c_aad45114-655b-47c2-abe2-fc9e113ea00a.png
+experienced-hunters/hawaii.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158271004/settings_images/0417658-403-bb01-212-b8252b03fbff_Sacred_Hunting_Hawaii.jpg
+experienced-hunters/texture-2.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158271004/settings_images/0db6e3c-5fc-54b7-776d-50cbaebe1dc_38ab5392-8b99-4deb-bf44-475ff8894554.png
+experienced-hunters/tribe.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158271004/settings_images/1118184-0857-f7ab-431a-e1eff4851b40_Sacred_Hunting_tribe.jpg
+experienced-hunters/testimonial-nat.jpeg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158271004/settings_images/7b7171b-b303-b7b0-b7c1-14d74b30df8_nat-eliason-testimonial.jpeg
+experienced-hunters/content-1.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158271004/settings_images/8b84bc3-e5e3-4681-41a0-fb87bc3c8d4_2739f543-ece8-4cdb-966d-473931323c5c.jpg
+experienced-hunters/elk.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158271004/settings_images/a88544c-de24-fa0-7c73-7c85710525f5_Elk_bugling_Sacred_Hunting.jpg
+experienced-hunters/hero-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1679076/settings_images/YO18sc9QyWBGsAkDBN8A_file.jpg
+
+# Veterans images
+veterans/meta-image.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/94225/images/f85b23-d56b-fd8-4d-afd086eb8ac5_8cfc2175-5f92-4368-acb1-1b9fc0ae66bb.jpg
+veterans/logo.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/21b-3640-7820-ae26-55342524e84_781d01f5-311a-4f56-9774-d552d2474087.jpg
+veterans/texture-bg.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/4bac3cf-1e45-f7ec-d2aa-7434cbc3346c_aad45114-655b-47c2-abe2-fc9e113ea00a.png
+veterans/main-image.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158205187/settings_images/0683833-b2e4-bc1b-e314-446ed2b6111_Sacred_Hunting_Veterans.jpg
+veterans/mike-bledsoe.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158205187/settings_images/2cec72a-7ba8-36-36e8-fe87ebaf8ca_mike_bledsoe.jpg
+veterans/portrait-1.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158205187/settings_images/6d2bb2f-fdce-d844-1874-6742115b76b6_e3f4debf-432b-40ff-a0a3-e5b619b657e7.jpg
+veterans/brandon-bryan.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158205187/settings_images/b0eaf0c-2d7-dcf4-5b-f08554f5212_brandon_bryan.jpg
+veterans/ryan-roberts.jpeg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158205187/settings_images/d40b7bc-dee6-b27e-614e-63d54acfec6_Ryan_Roberts.jpeg
+veterans/gili-oren.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158205187/settings_images/e50eb83-aaf-8d6d-e84a-fb054a73bbaa_Gili_Oren.jpg
+veterans/hero-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1679076/settings_images/YO18sc9QyWBGsAkDBN8A_file.jpg
+
+# Alumni images
+alumni/meta-image.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/94225/images/3dcb5f4-f7d5-47ed-5e5f-e36a327c302_dc18c07c-f12b-42b0-9987-f2ac3bfb06c9.jpg
+alumni/logo.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/21b-3640-7820-ae26-55342524e84_781d01f5-311a-4f56-9774-d552d2474087.jpg
+alumni/favicon.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/3f3bef4-a1fa-def6-34f2-28f5b6feb5e_e3f4debf-432b-40ff-a0a3-e5b619b657e7.jpg
+alumni/texture-bg.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158204747/settings_images/4bac3cf-1e45-f7ec-d2aa-7434cbc3346c_aad45114-655b-47c2-abe2-fc9e113ea00a.png
+alumni/hatchet-icon.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158285702/settings_images/148c8b4-3d66-62f-b522-0ac3f4cf0_Sacred_Hunting_Hatchet_icon.png
+alumni/mountain-icon.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158285702/settings_images/42d3ca-d8d6-6a-6e21-3b2ea65486d_Sacred_Hunting_mountain_icon.png
+alumni/fire-icon.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158285702/settings_images/8ced634-acd-6c2-2a82-8bfa365a1843_Sacred_Hunting_fire_icon.png
+alumni/bow-icon.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158285702/settings_images/fa08c2d-ca5-d007-d78e-daf3db124a_Sacred_Hunting_bow.png
+alumni/hero-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1679076/settings_images/YO18sc9QyWBGsAkDBN8A_file.jpg
+
+# About Us images
+about/meta-image.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/94225/images/36ccca-b488-20f-cb3d-ccc41b8dcc_429141d7-b6a9-4de4-b1b6-03392d15f10d.png
+about/image-1.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/040ebe-6d7a-183c-0fa-3fcc8ffe161d_d55e89d1-d99b-4c90-86d8-e6857d007985.png
+about/screenshot-1.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/054c71-2c4c-50ca-1f-f5be8e117b5_Screenshot_2023-11-29_at_2.59.51_PM.png
+about/screenshot-2.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/11edc04-0f6-b555-a77-032674aa1ac5_Screen_Shot_2023-02-24_at_2.12.39_PM.png
+about/logo.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/21b-3640-7820-ae26-55342524e84_781d01f5-311a-4f56-9774-d552d2474087.jpg
+about/screenshot-3.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/2241c54-c2-d3a2-042-3bb1f004e371_Screen_Shot_2023-02-24_at_9.53.29_AM.png
+about/image-2.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/2678b2f-82-5b38-ae0d-e024ca52bca_1178fb5e-01ce-4fdf-98ab-0bcac92add0d.png
+about/screenshot-4.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/40d4dcf-5e73-ce8a-6fef-026b46a6344_Screenshot_2023-11-29_at_2.56.16_PM.png
+about/screenshot-5.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/500bb6-abf6-2de-0a7-1033c70456a0_Screen_Shot_2023-02-24_at_9.10.48_AM.png
+about/person-1.jpeg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/5d16e0-d2d7-ac6-ab67-4abecd75fd_bbf1db33-d15c-4f88-90d5-86c62b15856c.jpeg
+about/portrait-1.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/718fccd-a1c6-f7c-6e08-3fe48ded63c7_e3f4debf-432b-40ff-a0a3-e5b619b657e7.jpg
+about/screenshot-6.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/74e274f-6a7f-bd82-4cfe-56be4578b548_Screenshot_2023-11-29_at_2.58.24_PM.png
+about/screenshot-7.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/75a0343-0be-4bb8-a755-ace67bc8d45_Screenshot_2023-11-29_at_2.57.17_PM.png
+about/screenshot-8.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/828ea44-6ff-c0fe-7578-cc46bdb76657_Screen_Shot_2023-02-24_at_1.13.07_PM.png
+about/screenshot-9.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/8ef4ba-80ea-e83-7574-201ce3710e4_Screen_Shot_2023-02-28_at_7.11.47_AM.png
+about/image-3.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/a170a8-67c6-7252-57c-3451f5ef66e4_35b09220-d1cb-4735-8f74-97b2cee0e1a0.png
+about/photo-1.jpeg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/a33c08-8e5-2ed4-dfe4-645b34416ef_IMG_8549.jpeg
+about/screenshot-10.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/b51ccd2-780b-08c8-20c-4b800872a03_Screen_Shot_2023-02-24_at_9.14.08_AM.png
+about/screenshot-11.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/e8cc83e-34-55-d0e7-ff7a235c5e2_Screen_Shot_2023-02-24_at_12.53.37_PM.png
+about/screenshot-12.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/ef82626-eba-56a7-bfda-880be03127ec_Screen_Shot_2023-02-24_at_9.29.58_AM.png
+about/screenshot-13.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153049818/settings_images/f1372a-cff4-2c43-518-fa34558c58fa_Screenshot_2023-10-31_at_7.56.14_AM.png
+about/image-4.png https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/3132919/settings_images/0140023-e6cf-7f33-20b2-6b5ac40fde_eb0654b4-5cc4-424d-990a-9a9a0f05bd6c.png
+about/hero-bg.jpg https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/1679076/settings_images/YO18sc9QyWBGsAkDBN8A_file.jpg

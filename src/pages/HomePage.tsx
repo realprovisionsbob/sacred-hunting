@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import WistiaEmbed from '../components/WistiaEmbed'
 
 const HomePage = () => {
   const retreatCategories = [
@@ -6,31 +7,31 @@ const HomePage = () => {
       title: 'Beginner - Men',
       description: 'Hunting is a universal rite of passage from boyhood into manhood. Join this container if you want a curated, intimate experience for your first hunt.',
       path: '/beginner-men',
-      image: '/api/placeholder/400/300'
+      image: '/images/home/retreat-2.jpg'
     },
     {
       title: 'Beginner - Women',
       description: 'Within each of us is a hunter. We welcome women from all walks of life to join the hunt even if they have no experience firing a rifle.',
       path: '/beginner-women',
-      image: '/api/placeholder/400/300'
+      image: '/images/beginner-women/main-image.jpg'
     },
     {
       title: 'Experienced Hunters',
       description: 'We invite you to experience hunting like never before, layered with indigenous practices. Learn to hunt as a spiritual practice in exotic places.',
       path: '/experienced-hunters',
-      image: '/api/placeholder/400/300'
+      image: '/images/experienced-hunters/elk.jpg'
     },
     {
       title: 'Veteran Immersions',
       description: 'After military service, re-integration is a necessary tool for healing. Join the veteran-led experiences to reconnect with the healthy inner warrior.',
       path: '/veteran-immersions',
-      image: '/api/placeholder/400/300'
+      image: '/images/veterans/main-image.jpg'
     },
     {
       title: 'Sacred Hunting Alumni',
       description: 'After completing your first experience with us, you get exclusive access to transformational outdoor experiences with special discount pricing.',
       path: '/alumni',
-      image: '/api/placeholder/400/300'
+      image: '/images/home/retreat-1.jpg'
     }
   ]
 
@@ -38,17 +39,17 @@ const HomePage = () => {
     {
       title: 'Sacred Ceremony with Power Plants',
       description: 'Power plants, taken in sacred ceremony, have allowed men to expand their consciousness for tens of thousands of years. Examples of power plants include cacao, reishi, and others.',
-      icon: '🌿'
+      icon: '/images/home/mushroom-icon.jpg'
     },
     {
       title: 'Indigenous Practices, Prayers & Intentions',
       description: 'Indigenous hunter-gatherers had an intimate relationship with nature and the mysteries of the universe. Reclaiming these practices boosts our sense of gratitude and presence.',
-      icon: '🏹'
+      icon: '/images/home/bow-arrow-icon.png'
     },
     {
       title: 'Hunting Ethically with a Tribe',
       description: 'Hunting is older than humanity itself. Tribes of men would bond around the fire, share laughs, and provide meat for their loved ones and community.',
-      icon: '🔥'
+      icon: '/images/alumni/fire-icon.png'
     }
   ]
 
@@ -58,7 +59,7 @@ const HomePage = () => {
       <section 
         className="relative h-screen flex items-center justify-center text-center hero-section"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("/api/placeholder/1920/1080")',
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("/images/home/hero-bg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -79,6 +80,23 @@ const HomePage = () => {
                 Learn Our Story
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Video Section */}
+      <section className="py-20 bg-earth-dark">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+              Experience Sacred Hunting
+            </h2>
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+              Discover what awaits you on this transformational journey.
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <WistiaEmbed videoId="62li3tvrc3" playerColor="#8B4513" />
           </div>
         </div>
       </section>
@@ -142,7 +160,9 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {practiceCards.map((card, index) => (
               <div key={index} className="card text-center">
-                <div className="text-4xl mb-4">{card.icon}</div>
+                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <img src={card.icon} alt={card.title} className="w-full h-full object-contain" />
+                </div>
                 <h3 className="text-xl font-serif font-bold text-white mb-4">{card.title}</h3>
                 <p className="text-gray-300 leading-relaxed">{card.description}</p>
               </div>

@@ -1,3 +1,5 @@
+import WistiaEmbed from '../components/WistiaEmbed'
+
 const BeginnerMenPage = () => {
   return (
     <div className="min-h-screen">
@@ -5,7 +7,7 @@ const BeginnerMenPage = () => {
       <section 
         className="relative py-32 flex items-center justify-center text-center hero-section"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/api/placeholder/1920/600")',
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/images/beginner-men/hero-bg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -193,6 +195,30 @@ const BeginnerMenPage = () => {
                 </p>
                 <footer className="text-earth-tan font-semibold">— Michael T., Software Developer</footer>
               </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Testimonials */}
+      <section className="py-20 bg-earth-dark">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+              Hear From Past Participants
+            </h2>
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+              Listen to the transformational stories from men who've walked this path.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="card">
+              <h3 className="text-xl font-bold text-white mb-4">Michael's Journey</h3>
+              <WistiaEmbed videoId="wy42zzlszf" playerColor="#8B4513" />
+            </div>
+            <div className="card">
+              <h3 className="text-xl font-bold text-white mb-4">First Hunt Experience</h3>
+              <WistiaEmbed videoId="hdbozoytl1" playerColor="#8B4513" />
             </div>
           </div>
         </div>
